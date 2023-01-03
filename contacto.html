@@ -23,7 +23,16 @@
         <li class="nav-item"><a href="cursos.html" class="nav-link"><i class="fa-solid fa-medal"></i> Cursos</a></li>
         <li class="nav-item"><a href="portfolio.html" class="nav-link"><i class="fa-brands fa-hive"></i>Portfolio</a></li>
         <li class="nav-item"><a href="contacto.html" class="nav-link active" aria-current="page"><i class="fa-solid fa-address-book"></i> Contacto</a></li> 
+        <li class="nav-item-b"><button id="boton" type="button" onclick="cambiarColor()">color</button> </li> 
       </ul>
+      <script>
+        function cambiarColor(){
+          let header = document.getElementsByTagName("header")[0];
+          header.style.backgroundColor = "#ccc";
+          let footer = document.getElementsByTagName("footer")[0];
+          footer.style.backgroundColor = "#ccc";
+        }
+      </script>
     </header>
     <div class="row"> 
     <aside class="col-4">
