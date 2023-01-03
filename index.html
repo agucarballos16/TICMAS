@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CV Agustin Carballo Simon</title>
+    <meta name="author" content="agustin carballo">
+    <meta name="keywords" content="agustin, carballo, simon, ticmas, argentina, programa, 4.0, final, cv, curriculum, vitae, html, css, javascript, github">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="cv.css">
+    <script src="https://kit.fontawesome.com/8f5dee7dd7.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+	<script src="cv.js"></script>
+	<div class="container">
+    <header class="d-flex justify-content-center py-3">
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="#" class="nav-link active" aria-current="page"><i class="fa-sharp fa-solid fa-person"></i> Sobre mi</a></li>
+        <li class="nav-item"><a href="cursos.html" class="nav-link"><i class="fa-solid fa-medal"></i> Cursos</a></li>
+        <li class="nav-item"><a href="portfolio.html" class="nav-link"><i class="fa-brands fa-hive"></i>Portfolio</a></li>
+        <li class="nav-item"><a href="contacto.html" class="nav-link"><i class="fa-solid fa-address-book"></i> Contacto</a></li> 
+        <li class="nav-item-b"><button id="boton" type="button" onclick="cambiarColor()">color</button> </li> 
+      </ul>
+      <script>
+      	function cambiarColor(){
+      		let header = document.getElementsByTagName("header")[0];
+      		header.style.backgroundColor = "#ccc";
+      		let footer = document.getElementsByTagName("footer")[0];
+      		footer.style.backgroundColor = "#ccc";
+      	}
+      </script>
+    </header> 
+    <div class="row"> 
+    <aside class="col-4">
+      	<img class="imagen-cv" src="cv.jpeg">
+      	<div class="accordion" id="accordionExample">
+         <div class="accordion-item">
+         <h2 class="accordion-header" id="headingOne">
+         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+         Datos Personales
+         </button>
+         </h2>
+         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+         <div class="accordion-body">
+         <ul> 
+          <li><strong> Nombre </strong></li> <p> Agustin </p>
+          <li><strong>Apellido </strong></li> <p>Carballo Simon </p>
+          <li><strong>Fecha de Nacimiento </strong></li> <p>27 de abril de 1991 </p>
+          <li><strong>Nacionalidad </strong></li> <p>Argentina </p>
+         </ul>
+         </div>
+         </div>
+         </div>
+        </div>
+    </aside>
+    <aside class="aside-resp">
+      	<img class="imagen-cv" src="cv.jpeg">
+      	<div class="accordion" id="accordionExample">
+         <div class="accordion-item">
+         <h2 class="accordion-header" id="headingOne">
+         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+         Datos Personales
+         </button>
+         </h2>
+         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+         <div class="accordion-body">
+         <ul> 
+          <li><strong> Nombre </strong></li> <p> Agustin </p>
+          <li><strong>Apellido </strong></li> <p>Carballo Simon </p>
+          <li><strong>Fecha de Nacimiento </strong></li> <p>27 de abril de 1991 </p>
+          <li><strong>Nacionalidad </strong></li> <p>Argentina </p>
+         </ul>
+         </div>
+         </div>
+         </div>
+        </div>
+    </aside>
+    <article class="col-8">
+        <div class="accordion" id="accordionExample">
+         <div class="accordion-item">
+         <h2 class="accordion-header" id="headingTwo">
+         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+         Sobre mi
+         </button>
+         </h2>
+         <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+         <div class="accordion-body">
+         <ul> 
+          <li><strong>Nombre </strong>Agustin</li>  
+          <li><strong>Apellido </strong>Carballo Simon</li> 
+          <li><strong>Fecha de Nacimiento </strong>27 de abril de 1991</li>  
+          <li><strong>Nacionalidad </strong>Argentina </li> 
+          <li><strong>Ciudad </strong>Olavarria </li> 
+          <li><strong>Direccion</strong> AV. Fundadores 1318</li>
+          <li><strong>Mail </strong>agustincarballos@gmail.com</li> 
+          <li><strong>Celular </strong>+54 2284 306155</li> 
+         </ul> 
+         </div>
+         </div>
+         </div>
+         <div class="accordion-item">
+         <h2 class="accordion-header" id="headingThree">
+         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+         Futuro Desarrollador Web Full Stack
+         </button>
+         </h2>
+         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+         <div class="accordion-body">
+         <p>Me presento, mi nombre es Agustin Carballo Simon. Soy un estudiante activo en el area de programación.
+         En este camino he buscado distintas maneras para aprender a programar. En un primer momento realize un terciario en un instituto llamado TECLAB (donde obtuve el titulo de auxiliar en programacion), el cual se daba a mitad de cursada, abandone dicha carrera ya que no me gustaban sus metodos y veia que aprendia muy poco.
+         Al tiempo volvi a entusiasmarme y conocí un canal de Youtube llamado "soydalto", donde aprendi HTML Y CSS, en un nivel considerablente alto, y Javascript, en un nivel Junior. Esto me motivo para seguir aprendiendo y realicé un curso de programador front-end en TICMAS, atravez de ArgentinaPrograma 4.0, el cual me sirvio para certificar lo ya aprendido.
+         En el futuro pienso seguir capacitandome tanto en front como en back-end, y conseguir un trabajo con el cual puedo seguir puliéndome como programador. </p>
+         </div>
+         </div>
+         </div>
+        </div>   
+    </article>	
+    <article class="article-resp">
+        <div class="accordion" id="accordionExample">
+         <div class="accordion-item">
+         <h2 class="accordion-header" id="headingTwo">
+         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+         Sobre mi
+         </button>
+         </h2>
+         <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+         <div class="accordion-body">
+         <ul> 
+          <li><strong>Nombre </strong>Agustin</li>  
+          <li><strong>Apellido </strong>Carballo Simon</li> 
+          <li><strong>Fecha de Nacimiento </strong>27 de abril de 1991</li>  
+          <li><strong>Nacionalidad </strong>Argentina </li> 
+          <li><strong>Ciudad </strong>Olavarria </li> 
+          <li><strong>Direccion</strong> AV. Fundadores 1318</li>
+          <li><strong>Mail </strong>agustincarballos@gmail.com</li> 
+          <li><strong>Celular </strong>+54 2284 306155</li> 
+         </ul> 
+         </div>
+         </div>
+         </div>
+         <div class="accordion-item">
+         <h2 class="accordion-header" id="headingThree">
+         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+         Futuro Desarrollador Web Full Stack
+         </button>
+         </h2>
+         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+         <div class="accordion-body">
+         <p>Me presento, mi nombre es Agustin Carballo Simon. Soy un estudiante activo en el area de programación.
+         En este camino he buscado distintas maneras para aprender a programar. En un primer momento realize un terciario en un instituto llamado TECLAB (donde obtuve el titulo de auxiliar en programacion), el cual se daba a mitad de cursada, abandone dicha carrera ya que no me gustaban sus metodos y veia que aprendia muy poco.
+         Al tiempo volvi a entusiasmarme y conocí un canal de Youtube llamado "soydalto", donde aprendi HTML Y CSS, en un nivel considerablente alto, y Javascript, en un nivel Junior. Esto me motivo para seguir aprendiendo y realizé un curso de programador front-end en TICMAS, atravez de ArgentinaPrograma 4.0, el cual me sirvio para certificar lo ya aprendido.
+         En el futuro pienso seguir capacitandome tanto en front como en back-end, y conseguir un trabajo con el cual puedo seguir puliéndome como programador. </p>
+         </div>
+         </div>
+         </div>
+        </div>   
+    </article>	
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top row-2">
+         <div class="col-md-4 d-flex align-items-center">
+         <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+         <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+         </a>
+         <span class="mb-3 mb-md-0 text-muted"><strong> © 2023 Company, Inc </strong></span>
+         </div>
+         <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+         <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/agucarballo91/?hl=es"><strong><i class="fa-brands fa-instagram"></i></strong><svg class="bi" width="24" height="24"><use xlink:href="https://www.instagram.com/agucarballo91/?hl=es"></use></svg></a></li>
+         <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/agu.carballo/"><svg class="bi" width="24" height="24"><use xlink:href="https://www.facebook.com/agu.carballo/" class="link-pag"><strong><i class="fa-brands fa-facebook"></i></strong></use></svg></a></li>
+         </ul>
+    </footer>
+    </div>
+</body>
+</html>
